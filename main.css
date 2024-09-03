@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #202124;
+    color: rgb(230, 230, 230);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CSS of anchor tags in header ! */
+
+.header-links {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 30px;
+}
+.header-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Css of Search Section / Main Body Section */
+
+.search-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* CSS for form */
+
+.search-section form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-section form .search-input {
+    color: white;
+    box-sizing: border-box;
+    height: 50px;
+    width: 40%;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #5c5d5c;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.search-section form .search-input:hover {
+    background-color: #28292a;
+    box-shadow: 0 0 5px #181818;
+    border: none;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.form-buttons input{
+    color: white;
+    background-color: #303230;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-buttons input:hover {
+    border: 1px solid #5c5d5c;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    color: gray;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-row label {
+    width: 14%;
+}
+
+.form-row input {
+    padding: 10px 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    width: 40%;
+    border: 1px solid #5c5d5c;
+    height: 10px;
+}
+.form-row input:focus {
+    border-color: rgb(118, 161, 255);
+    outline: none;
+}
+
+#blue-button {
+    background-color: rgb(96, 128, 193);
+    color: black;
+    cursor: pointer;
+}
+
+#blue-button:hover {
+    border: none;
+}

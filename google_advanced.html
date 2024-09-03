@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="header-links">
+            <a href="index.html">Search</a>
+            <a href="google_image.html">Image Search</a>
+        </div>
+        <div style="align-items: flex-start; justify-content: flex-start;" class="search-section">
+            <h1>Google Advanced Search</h1>
+            <form style="align-items: flex-start; gap: 20px;" action="https://www.google.com/search">
+                <div class="form-row">
+                    <label for="all_these_words">all these words:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="form-row">
+                    <label for="this_exact_word_or_phrase">this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="form-row">
+                    <label for="any_of_these_words">any of these words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="form-row">
+                    <label for="none_of_these_words">none of these words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="form-buttons">
+                    <input id="blue-button" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
